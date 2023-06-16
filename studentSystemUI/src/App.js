@@ -4,9 +4,9 @@ import BasicTextFields from './components/Student';
 function App() {
   return (
     <div className="App">
-      
+      <header>
       <Appbar/>
-      <BasicTextFields/>
+      <BasicTextFields/></header>
     </div>
   );
 }
